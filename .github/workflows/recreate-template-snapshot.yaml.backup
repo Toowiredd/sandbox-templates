@@ -1,16 +1,12 @@
-# DISABLED AUTO-RUN: Originally triggered on auto-triggers
-# Converted to manual execution only - 2025-10-18
-# Backup available at: recreate-template-snapshot.yaml.backup
 name: Regenerate Template Snapshot
 
 on:
-  workflow_dispatch:  # Manual trigger only
-#   push:
-#     paths-ignore:
-#       - 'templates.json'
-#       - 'README.md'
-#     branches:
-#       - main
+  push:
+    paths-ignore:
+      - 'templates.json'
+      - 'README.md'
+    branches:
+      - main
 
 env:
   CODESANDBOX_API_TOKEN: ${{ secrets.CODESANDBOX_API_TOKEN }}
