@@ -4,6 +4,9 @@ name: Human Foundation Actions Probe
   push:
     branches:
       - human-foundation-actions-probe-v0.2.1
+  pull_request:
+    branches:
+      - main
 
 permissions:
   contents: read
