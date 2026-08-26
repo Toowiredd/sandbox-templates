@@ -1,0 +1,92 @@
+schema_version: 1
+profile: Godot.SkeletonProfileHumanoid
+bone_count: 56
+root_bone: Root
+scale_base_bone: Hips
+
+hierarchy:
+  Root:
+    Hips:
+      LeftUpperLeg:
+        LeftLowerLeg:
+          LeftFoot:
+            LeftToes: {}
+      RightUpperLeg:
+        RightLowerLeg:
+          RightFoot:
+            RightToes: {}
+      Spine:
+        Chest:
+          UpperChest:
+            Neck:
+              Head:
+                Jaw: {}
+                LeftEye: {}
+                RightEye: {}
+            LeftShoulder:
+              LeftUpperArm:
+                LeftLowerArm:
+                  LeftHand:
+                    LeftThumbMetacarpal:
+                      LeftThumbProximal:
+                        LeftThumbDistal: {}
+                    LeftIndexProximal:
+                      LeftIndexIntermediate:
+                        LeftIndexDistal: {}
+                    LeftMiddleProximal:
+                      LeftMiddleIntermediate:
+                        LeftMiddleDistal: {}
+                    LeftRingProximal:
+                      LeftRingIntermediate:
+                        LeftRingDistal: {}
+                    LeftLittleProximal:
+                      LeftLittleIntermediate:
+                        LeftLittleDistal: {}
+            RightShoulder:
+              RightUpperArm:
+                RightLowerArm:
+                  RightHand:
+                    RightThumbMetacarpal:
+                      RightThumbProximal:
+                        RightThumbDistal: {}
+                    RightIndexProximal:
+                      RightIndexIntermediate:
+                        RightIndexDistal: {}
+                    RightMiddleProximal:
+                      RightMiddleIntermediate:
+                        RightMiddleDistal: {}
+                    RightRingProximal:
+                      RightRingIntermediate:
+                        RightRingDistal: {}
+                    RightLittleProximal:
+                      RightLittleIntermediate:
+                        RightLittleDistal: {}
+
+required_for_body_animation:
+  - Root
+  - Hips
+  - Spine
+  - Chest
+  - UpperChest
+  - Neck
+  - Head
+  - LeftShoulder
+  - LeftUpperArm
+  - LeftLowerArm
+  - LeftHand
+  - RightShoulder
+  - RightUpperArm
+  - RightLowerArm
+  - RightHand
+  - LeftUpperLeg
+  - LeftLowerLeg
+  - LeftFoot
+  - LeftToes
+  - RightUpperLeg
+  - RightLowerLeg
+  - RightFoot
+  - RightToes
+
+optional_groups:
+  face: [Jaw, LeftEye, RightEye]
+  hands: all_30_digit_bones
