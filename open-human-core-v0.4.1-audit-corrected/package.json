@@ -1,0 +1,12 @@
+{
+  "name": "open-human-core-v0.4.1-runtime-validation",
+  "version": "0.4.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/threejs_runtime_validate.mjs --output reports/threejs-runtime-result.json"
+  },
+  "dependencies": {
+    "three": "0.185.1"
+  }
+}
