@@ -1,0 +1,3 @@
+642e69852db77400d277737afabfc2dbc5952d8c533051be674d5df3535f89ab  assets/runtime/humans/human_core_01.glb
+a4b19ebc6b452e4fe99407290f67bf6ba26f4c20984e2fb2f629e6624a51106d  assets/runtime/humans/human_core_01_lod1.glb
+89bdc40cb7eec39e1d362aa1b4db88e3e87559ecf6c037633bf61346d6da2d86  assets/runtime/humans/human_core_01_lod2.glb
